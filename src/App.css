@@ -1,0 +1,58 @@
+.container{
+    margin: 1rem 25%;
+    text-align: center;
+    background-color: #f4af18;
+    height: 600px;
+    color: #00154f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem 5rem;
+    border-radius: 3rem;
+    border: 3px solid red;
+}
+
+.description{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #f2bc94;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.container > input{
+    padding: 0.5rem;
+    font-size: larger;
+    margin: 1rem;
+}
+
+.container > button{
+    background-color: #00154f;
+    padding: 0.4rem 1rem;
+    color: #f4af18;
+    font-size: large;
+    border-radius: 0.4rem;
+    border: 2px solid red;
+}
+
+.output{
+    margin: 1rem;
+    border: 2px dotted red;
+}
+
+.output > img{
+    width: 60px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .container{
+        margin: 1rem 2%;
+        text-align: center;
+        background-color: #f4af18;
+        height: 75%;
+        color: #00154f;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 2rem 1rem;
+        border-radius: 3rem;
+        border: 3px solid red;
+    }
+  }
